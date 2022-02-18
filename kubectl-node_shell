@@ -104,6 +104,7 @@ overrides="$(
     "nodeName": "$node",
     "hostPID": true,
     "hostNetwork": true,
+    "automountServiceAccountToken": false,
     "containers": [
       {
         "securityContext": {
